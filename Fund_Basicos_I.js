@@ -5,6 +5,7 @@ for(i=1;i<=255;i++){
 arr.push(i);
 }
 console.log(arr);
+return arr;
 }
 Array1Hasta255() //COMENTAR TODA LA LINEA PARA USAR DESDE UN HTML
 
