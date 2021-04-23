@@ -7,3 +7,4 @@ arr.push(i);
 console.log(arr);
 }
 Array1Hasta255()
+
