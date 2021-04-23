@@ -8,3 +8,5 @@ console.log(arr);
 }
 Array1Hasta255()
 
+// Consigue pares hasta 1000: Escribe una función que entregue la suma de todos los números 
+//pares del 1 al 1000 - Puedes usar un operador de módulo para este ejercicio. 
