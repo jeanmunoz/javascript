@@ -1,0 +1,16 @@
+.body{
+    background-color: gray;
+}
+.text1 {
+    color: white;
+    font-size:medium;
+}
+.text2 {
+    color: white;
+    font-size:large;
+}
+.h2{
+    color: white;
+    font-size:small;
+    text-align: center;
+}
