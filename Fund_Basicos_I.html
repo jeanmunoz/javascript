@@ -1,25 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <style>
-        .body{
-            background-color: gray;
-        }
-        .text1 {
-            color: white;
-            font-size:medium;
-        }
-        .text2 {
-            color: white;
-            font-size:large;
-        }
-        .h2{
-            color: white;
-            font-size:small;
-            text-align: center;
-        }
-    </style>
-    <!-- Required meta tags -->
+    <link rel="stylesheet" href="style.css">
+        <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="Fund_Basicos_I.js"></script>
@@ -32,20 +15,20 @@
     <br><br>
     <h1 class="h2">Fundamentos Básicos I (Los 13 Algoritmos básicos)</h1>
     <div style="border-radius: 10px;" class="container bg-dark col-md-8 p-3">
-    <button type="button" class="btn btn-primary btn-sm m-2" onclick="array1Hasta255()">Ejercicio 1</button>  
-    <button type="button" class="btn btn-primary btn-sm m-2" onclick="sumarParesHasta1000()">Ejercicio 2</button> 
-    <button type="button" class="btn btn-primary btn-sm m-2" onclick="sumarImparesHasta5000()">Ejercicio 3</button> 
-    <button type="button" class="btn btn-primary btn-sm m-2" onclick="sumaArray()">Ejercicio 4</button>
-    <!-- <span><input type="array" id="input4"></span>  -->
-    <button type="button" class="btn btn-primary btn-sm m-2" onclick="elMayor()">Ejercicio 5</button>  
-    <button type="button" class="btn btn-primary btn-sm m-2" onclick="promedioArray()">Ejercicio 6</button> 
-    <button type="button" class="btn btn-primary btn-sm m-2" onclick=" arregloImpares()">Ejercicio 7</button> 
-    <button type="button" class="btn btn-primary btn-sm m-2" onclick="cantidadMayores()">Ejercicio 8</button> 
-    <button type="button" class="btn btn-primary btn-sm m-2" onclick="cuadrado()">Ejercicio 9</button> 
-    <button type="button" class="btn btn-primary btn-sm m-2" onclick="reemplazoNegativos()">Ejercicio 10</button>  
-    <button type="button" class="btn btn-primary btn-sm m-2" onclick="maxMinProm()">Ejercicio 11</button> 
-    <button type="button" class="btn btn-primary btn-sm m-2" onclick="intercambio()">Ejercicio 12</button> 
-    <button type="button" class="btn btn-primary btn-sm m-2" onclick="reemplazoNegativosDojo()">Ejercicio 13</button> <br><br>
+    <button type="button" class="btn btn-primary btn-sm m-2" onclick="array1Hasta255()">1 al 255</button>  
+    <button type="button" class="btn btn-primary btn-sm m-2" onclick="sumarParesHasta1000()">SumPar 1000</button> 
+    <button type="button" class="btn btn-primary btn-sm m-2" onclick="sumarImparesHasta5000()">SumImp 5000</button> 
+    <button type="button" class="btn btn-danger btn-sm m-2" onclick="sumaArray()">Sum Ele</button>
+        <button type="button" class="btn btn-danger btn-sm m-2" onclick="elMayor()">El Mayor</button>  
+    <button type="button" class="btn btn-danger btn-sm m-2" onclick="promedioArray()">Prom Ele</button> 
+    <button type="button" class="btn btn-primary btn-sm m-2" onclick=" arregloImpares()">Imp 1-50</button> 
+    <button type="button" class="btn btn-danger btn-sm m-2" onclick="cantidadMayores()">Mayores a 3</button> 
+    <button type="button" class="btn btn-danger btn-sm m-2" onclick="cuadrado()">Cuadrado</button> 
+    <button type="button" class="btn btn-danger btn-sm m-2" onclick="reemplazoNegativos()">Neg to 0</button>  
+    <button type="button" class="btn btn-danger btn-sm m-2" onclick="maxMinProm()">Max/Min/Avg</button> 
+    <button type="button" class="btn btn-danger btn-sm m-2" onclick="intercambio()">Pri <-> Ult</button> 
+    <button type="button" class="btn btn-danger btn-sm m-2" onclick="reemplazoNegativosDojo()">Neg->Dojo</button> 
+    <span></span><input type="text" id="input4" onchange="funcionInput()"></span><br><br>
     <div style="word-wrap: break-word;" class="bg-light col-md-12 p-3 m-2" id="mostrar"></div> </div>
   </body>
 </html>
